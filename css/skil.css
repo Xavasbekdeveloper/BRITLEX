@@ -11,9 +11,9 @@
 }
 
 .skills__cards {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     grid-template-areas: 
         "card-1 card-2 card-3"
